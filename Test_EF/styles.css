@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(78, 127, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.form-button{
+    background-color: #7d0c63; /* Colore di sfondo verde */
+    color: white; /* Colore del testo bianco */
+    padding: 10px 20px; /* Spaziatura interna del bottone */
+    font-size: 16px; /* Dimensione del testo */
+    border: none; /* Rimuovi il bordo */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+}
